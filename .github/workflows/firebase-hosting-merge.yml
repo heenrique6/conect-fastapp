@@ -5,7 +5,7 @@ name: Deploy to Firebase Hosting on merge
 on:
   push:
     branches:
-      - master # <--- AQUI ESTÁ A MUDANÇA: 'main' foi trocado por 'master'
+      - principal # AQUI ESTÁ A MUDANÇA: Agora o workflow observa a branch 'principal'
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
