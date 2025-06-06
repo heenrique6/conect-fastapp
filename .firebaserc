@@ -1,0 +1,11 @@
+{
+  "projects": {
+    "default": "conect-fastapp"
+  },
+  "targets": {},
+  "etags": {
+    "conect-fastapp": {
+      "extensionInstances": {}
+    }
+  }
+}
